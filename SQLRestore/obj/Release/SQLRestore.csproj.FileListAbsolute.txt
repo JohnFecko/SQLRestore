@@ -15,3 +15,6 @@ D:\Dropbox\Code\CodeJF\SQLRestore\SQLRestore\obj\Release\SQLRestore.csprojResolv
 D:\Dropbox\Code\CodeJF\SQLRestore\SQLRestore\obj\Release\SQLRestore.c.resources
 D:\Dropbox\Code\CodeJF\SQLRestore\SQLRestore\obj\Release\SQLRestore.Properties.Resources.resources
 D:\Dropbox\Code\CodeJF\SQLRestore\SQLRestore\obj\Release\SQLRestore.csproj.GenerateResource.Cache
+Z:\Code\CodeJF\SQLRestore\SQLRestore\bin\Release\SQLRestore.exe.config
+Z:\Code\CodeJF\SQLRestore\SQLRestore\obj\Release\SQLRestore.exe
+Z:\Code\CodeJF\SQLRestore\SQLRestore\obj\Release\SQLRestore.pdb
