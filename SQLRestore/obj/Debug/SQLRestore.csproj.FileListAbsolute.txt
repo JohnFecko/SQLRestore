@@ -1,0 +1,9 @@
+C:\Users\mytho_000\Desktop\SQLRestore\SQLRestore\bin\Debug\SQLRestore.exe.config
+C:\Users\mytho_000\Desktop\SQLRestore\SQLRestore\obj\Debug\SQLRestore.csprojResolveAssemblyReference.cache
+C:\Users\mytho_000\Desktop\SQLRestore\SQLRestore\obj\Debug\SQLRestore.Properties.Resources.resources
+C:\Users\mytho_000\Desktop\SQLRestore\SQLRestore\obj\Debug\SQLRestore.csproj.GenerateResource.Cache
+C:\Users\mytho_000\Desktop\SQLRestore\SQLRestore\bin\Debug\SQLRestore.exe
+C:\Users\mytho_000\Desktop\SQLRestore\SQLRestore\bin\Debug\SQLRestore.pdb
+C:\Users\mytho_000\Desktop\SQLRestore\SQLRestore\obj\Debug\SQLRestore.exe
+C:\Users\mytho_000\Desktop\SQLRestore\SQLRestore\obj\Debug\SQLRestore.pdb
+C:\Users\mytho_000\Desktop\SQLRestore\SQLRestore\obj\Debug\SQLRestore.c.resources

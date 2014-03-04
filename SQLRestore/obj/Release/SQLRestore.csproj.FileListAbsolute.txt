@@ -1,0 +1,17 @@
+C:\Users\mytho_000\Desktop\SQLRestore\SQLRestore\bin\Release\SQLRestore.exe.config
+C:\Users\mytho_000\Desktop\SQLRestore\SQLRestore\bin\Release\SQLRestore.exe
+C:\Users\mytho_000\Desktop\SQLRestore\SQLRestore\bin\Release\SQLRestore.pdb
+C:\Users\mytho_000\Desktop\SQLRestore\SQLRestore\obj\Release\SQLRestore.c.resources
+C:\Users\mytho_000\Desktop\SQLRestore\SQLRestore\obj\Release\SQLRestore.Properties.Resources.resources
+C:\Users\mytho_000\Desktop\SQLRestore\SQLRestore\obj\Release\SQLRestore.csproj.GenerateResource.Cache
+C:\Users\mytho_000\Desktop\SQLRestore\SQLRestore\obj\Release\SQLRestore.exe
+C:\Users\mytho_000\Desktop\SQLRestore\SQLRestore\obj\Release\SQLRestore.pdb
+D:\Dropbox\Code\CodeJF\SQLRestore\SQLRestore\bin\Release\SQLRestore.exe.config
+D:\Dropbox\Code\CodeJF\SQLRestore\SQLRestore\obj\Release\SQLRestore.exe
+D:\Dropbox\Code\CodeJF\SQLRestore\SQLRestore\obj\Release\SQLRestore.pdb
+D:\Dropbox\Code\CodeJF\SQLRestore\SQLRestore\bin\Release\SQLRestore.exe
+D:\Dropbox\Code\CodeJF\SQLRestore\SQLRestore\bin\Release\SQLRestore.pdb
+D:\Dropbox\Code\CodeJF\SQLRestore\SQLRestore\obj\Release\SQLRestore.csprojResolveAssemblyReference.cache
+D:\Dropbox\Code\CodeJF\SQLRestore\SQLRestore\obj\Release\SQLRestore.c.resources
+D:\Dropbox\Code\CodeJF\SQLRestore\SQLRestore\obj\Release\SQLRestore.Properties.Resources.resources
+D:\Dropbox\Code\CodeJF\SQLRestore\SQLRestore\obj\Release\SQLRestore.csproj.GenerateResource.Cache
