@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(c));
             this.fileDialog = new System.Windows.Forms.OpenFileDialog();
             this.btnOpenFile = new System.Windows.Forms.Button();
             this.txtPath = new System.Windows.Forms.TextBox();
@@ -36,6 +37,7 @@
             this.lblDatabaseName = new System.Windows.Forms.Label();
             this.txtDatabaseName = new System.Windows.Forms.TextBox();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.progressBar = new System.Windows.Forms.ProgressBar();
             this.SuspendLayout();
             // 
             // btnOpenFile
@@ -94,18 +96,30 @@
             this.txtDatabaseName.Size = new System.Drawing.Size(303, 20);
             this.txtDatabaseName.TabIndex = 5;
             // 
+            // progressBar
+            // 
+            this.progressBar.Location = new System.Drawing.Point(14, 181);
+            this.progressBar.Name = "progressBar";
+            this.progressBar.Size = new System.Drawing.Size(302, 23);
+            this.progressBar.Step = 5;
+            this.progressBar.TabIndex = 7;
+            this.progressBar.Visible = false;
+            // 
             // c
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(328, 216);
+            this.Controls.Add(this.progressBar);
             this.Controls.Add(this.lblDatabaseName);
             this.Controls.Add(this.txtDatabaseName);
             this.Controls.Add(this.lblPath);
             this.Controls.Add(this.btnRestore);
             this.Controls.Add(this.txtPath);
             this.Controls.Add(this.btnOpenFile);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "c";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SQL Restore";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -122,6 +136,7 @@
         private System.Windows.Forms.Label lblDatabaseName;
         private System.Windows.Forms.TextBox txtDatabaseName;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
+        private System.Windows.Forms.ProgressBar progressBar;
     }
 }
 

@@ -73,7 +73,7 @@ namespace SQLRestore
                         MessageBox.Show("Delete existing database?", "Confirm Delete", MessageBoxButtons.YesNo,
                                         MessageBoxIcon.Warning) == DialogResult.Yes)
                     {
-                        sqlServer.Databases[name].Drop();
+                        sqlServer.KillDatabase(name);
                     }
                     else
                     {
@@ -81,13 +81,29 @@ namespace SQLRestore
                     }
                 }
 
-                Database db = new Database (sqlServer, name);
+                Database db = new Database(sqlServer, name);
                 db.Create();
 
                 BackupDeviceItem backupDevice = new BackupDeviceItem(path, DeviceType.File);
 
+
                 sqlRestore.Action = RestoreActionType.Database;
                 sqlRestore.Devices.Add(backupDevice);
+
+                var table = sqlRestore.ReadBackupHeader(sqlServer);
+
+                var fileNumber = sqlRestore.FileNumber;
+                foreach (DataRow r in table.Rows)
+                {
+                    var tempNum = -1;
+                    if (!int.TryParse(r["Position"].ToString(), out tempNum)) continue;
+                    if (tempNum > fileNumber)
+                    {
+                        fileNumber = tempNum;
+                    }
+                }
+                sqlRestore.FileNumber = fileNumber;
+
                 String dataFileLocation = db.FileGroups[0].Files[0].FileName;
                 String logFileLocation = db.LogFiles[0].FileName;
                 db = sqlServer.Databases[name];
@@ -99,15 +115,19 @@ namespace SQLRestore
                 sqlRestore.RelocateFiles.Add(rf);
                 sqlRestore.RelocateFiles.Add(lf);
 
-                ;
 
                 sqlRestore.ReplaceDatabase = true;
+                sqlRestore.PercentCompleteNotification = 1;
+                sqlRestore.PercentComplete += new PercentCompleteEventHandler(PercentCompleteHandler);
                 //sqlRestore.Complete += new ServerMessageEventHandler(sqlRestore_Complete);
+
                 sqlRestore.SqlRestore(sqlServer);
+
                 db = sqlServer.Databases[name];
                 db.SetOnline();
                 sqlServer.Refresh();
                 MessageBox.Show("Restore Completed");
+                progressBar.Visible = false;
             }
             catch (Exception ex)
             {
@@ -131,6 +151,12 @@ namespace SQLRestore
             BackupDeviceItem deviceItem = new BackupDeviceItem(file, DeviceType.File);
             sqlRestore.Devices.Add(deviceItem);
             return sqlRestore;
+        }
+
+        private void PercentCompleteHandler(object sender, PercentCompleteEventArgs e)
+        {
+            progressBar.Visible = true;
+            progressBar.Value = e.Percent;
         }
 
     }

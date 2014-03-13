@@ -18,3 +18,12 @@ D:\Dropbox\Code\CodeJF\SQLRestore\SQLRestore\obj\Release\SQLRestore.csproj.Gener
 Z:\Code\CodeJF\SQLRestore\SQLRestore\bin\Release\SQLRestore.exe.config
 Z:\Code\CodeJF\SQLRestore\SQLRestore\obj\Release\SQLRestore.exe
 Z:\Code\CodeJF\SQLRestore\SQLRestore\obj\Release\SQLRestore.pdb
+D:\Code\CodeJF\SQLRestore\SQLRestore\bin\Release\SQLRestore.exe.config
+D:\Code\CodeJF\SQLRestore\SQLRestore\obj\Release\SQLRestore.exe
+D:\Code\CodeJF\SQLRestore\SQLRestore\obj\Release\SQLRestore.pdb
+D:\Code\CodeJF\SQLRestore\SQLRestore\bin\Release\SQLRestore.exe
+D:\Code\CodeJF\SQLRestore\SQLRestore\bin\Release\SQLRestore.pdb
+D:\Code\CodeJF\SQLRestore\SQLRestore\obj\Release\SQLRestore.csprojResolveAssemblyReference.cache
+D:\Code\CodeJF\SQLRestore\SQLRestore\obj\Release\SQLRestore.c.resources
+D:\Code\CodeJF\SQLRestore\SQLRestore\obj\Release\SQLRestore.Properties.Resources.resources
+D:\Code\CodeJF\SQLRestore\SQLRestore\obj\Release\SQLRestore.csproj.GenerateResource.Cache
